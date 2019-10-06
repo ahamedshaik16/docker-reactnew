@@ -9,3 +9,17 @@ before_install:
     
 script:
   - docker run -e CI=true backupshaik/docker-reactnew npm run test
+  
+deploy:
+    provider: elasticbeanstalk
+    region: "us-west-2"
+    app: "docker-reactnew"
+    env: "DockerReactnew-env"
+    bucket_name: "elasticbeanstalk-us-west-2-241206817981"
+    bucket_path: "docker-reactnew"
+    on:
+        branch: master
+    access_key_id:
+        secure: $AWS_ACCESS_KEY
+    secret_access_key:
+        secure: "$AWS_SECRET_KEY"
