@@ -8,8 +8,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Shuhail Concentrate and overcome everything. Focus. Yes you can do it.
+          Shuhail Concentrate and overcome everything. Focus. Yes you can acheive it.
             Change your world.
+            You will never change your life until you change something you work on daily.
         </p>
         <a
           className="App-link"
