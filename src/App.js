@@ -9,7 +9,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Shuhail Concentrate and overcome everything. Focus. Yes you can do it.
-            Change your world.
+            Change your world.<br>
+            You will never change your life until you change something you do daily.
         </p>
         <a
           className="App-link"
